@@ -10,3 +10,9 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Ignore .swp
+*.swp
+
+# Ignore output of "make"
+Homeworlds
