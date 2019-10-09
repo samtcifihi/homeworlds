@@ -1,5 +1,6 @@
 compile:
-	go build -o "Homeworlds"
+	go build src/userio
+	go build src/main -o "Homeworlds"
 
 test: compile
 	./Homeworlds
